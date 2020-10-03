@@ -2,9 +2,14 @@
   height: 56px;
   padding: 0 16px;
   background-color: red;
-  &__contents {
-  height: 56px;
-  width: 200px;
-  background-color: blue;
+  &__button {
+    height: 20px;
+    padding: 20px;
   }
+}
+.side-bar {
+  width: 56px;
+  height: 100vh;
+  position: left;
+  background-color: blue;
 }
