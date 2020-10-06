@@ -5,12 +5,12 @@
   &__bar {
     height: 56px;
     width: 200px;
+    padding-left: 10px;
     background-color: green;
-  &__bar__button {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    }
+    &__button {
+      text-align: left;
+      padding-top: 15px;
+      }
   }
 }
 .side-bar {
