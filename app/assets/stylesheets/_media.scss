@@ -3,13 +3,15 @@
   padding: 0 16px;
   background-color: red;
   &__bar {
-    height: 56px;
+    height: 27px;
     width: 200px;
     background-color: green;
-  &__bar__button {
-    height: 50px;
-    width: 50px;
-    text-align: center;
+    padding: 15px;
+    &__button {
+      height: 50px;
+      width: 50px;
+      text-align: justify;
+      flex: none;
     }
   }
 }
