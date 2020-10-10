@@ -11,11 +11,21 @@
     &__button {
       height: 50px;
       width: 50px;
-      text-align: justify;
-      flex: none;
+      }
     }
   }
+  
+.menu-header__icon {
+  font-size: 30px;
+  color: dimgray;
+  &__title {
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    left: 100px;
+  }
 }
+
 .side-bar {
   width: 56px;
   height: 100vh;
