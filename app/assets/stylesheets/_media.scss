@@ -14,7 +14,6 @@
       }
     }
   }
-  
 .menu-header__icon {
   font-size: 30px;
   color: dimgray;
@@ -25,7 +24,11 @@
     left: 100px;
   }
 }
-
+.search-bar {
+  position: absolute;
+  left: 300px;
+  width: 500px;
+}
 .side-bar {
   width: 56px;
   height: 100vh;
